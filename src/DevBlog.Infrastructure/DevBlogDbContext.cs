@@ -3,13 +3,8 @@ using DevBlog.Core.Domain.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DevBlog.Infrastructure.DevBlogDbContext
+namespace DevBlog.Infrastructure
 {
     public class DevBlogDbContext : IdentityDbContext<AppUser, AppRole, Guid>
     {
