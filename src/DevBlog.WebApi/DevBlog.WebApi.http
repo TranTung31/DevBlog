@@ -1,0 +1,6 @@
+@DevBlog.WebApi_HostAddress = http://localhost:5189
+
+GET {{DevBlog.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
